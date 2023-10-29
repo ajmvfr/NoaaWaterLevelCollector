@@ -101,5 +101,5 @@ Digital ocean
     to deploy db table
         source venv/bin/activate #start virtual server
         cd fastapi  #app dir
-        cd src/alembic/versions to see versions
-        alembic upgrade head to deploy tables
+        cd src/alembic/versions to see versions 
+        alembic upgrade head #to deploy tables  this should be from src folder
