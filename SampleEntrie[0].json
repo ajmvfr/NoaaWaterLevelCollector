@@ -1,0 +1,61 @@
+[
+{'title': 'Observation - BEAP1 - Beaver River near Beaver Falls (Pennsylvania)', 
+ 'title_detail': {'type': 'text/plain', 
+                  'language': None, 
+                  'base': 'https://water.weather.gov/ahps2/rss/obs/beap1.rss', 
+                  'value': 'Observation - BEAP1 - Beaver River near Beaver Falls (Pennsylvania)'}, 
+                  'links': [
+                             {'rel': 'alternate', 
+                              'type': 'text/html', 
+                              'href': 'https://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=beap1'
+                             }
+                           ], 'link': 'https://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=beap1', 
+                  'summary': '<h2>Flood Categories</h2>\n
+                              <h4><u>Primary (ft)</u></h4>\n
+                              <ul>
+                                  <li>Action  : 12 ft</li>\n
+                                  <li>Minor  : 15 ft</li>\n
+                                  <li>Moderate  : 17 ft</li>\n
+                                  <li>Major  : 19 ft</li>\n</ul>\n
+                                  <h4><u>Secondary (kcfs)</u></h4>\n
+                                  <ul><li>Action  : Not Set</li>\n
+                                  <li>Minor  : 91.977 kcfs</li>\n
+                                  <li>Moderate  : Not Set</li>\n
+                                  <li>Major  : Not Set</li>\n</ul>\n
+                                  <h2>Gauge Data</h2>\n
+                                  <div>Latest Observation Category: Normal</div>\n
+                                  <div>Latest Observation: 4.78 ft</div>\n
+                                  <div>Latest Observation (Secondary): 0.94 kcfs</div>\n
+                                  <div>Observation Time: Oct 20, 2023 05:15 PM -0400</div>\n\n\n
+                                  <div>U.S. Geological Survey (USGS) Data and Site Info for Beaver Falls: 
+                                      <a href="https://waterdata.usgs.gov/nwis/inventory/?site_no=03107500">USGS ID: 03107500</a>
+                                  </div>', 
+                  'summary_detail': 
+                       {'type': 'text/html', 
+                        'language': None, 
+                        'base': 'https://water.weather.gov/ahps2/rss/obs/beap1.rss', 
+                        'value': '<h2>Flood Categories</h2>\n<h4>
+                                  <u>Primary (ft)</u></h4>\n<ul><li>Action  : 12 ft</li>\n
+                                  <li>Minor  : 15 ft</li>\n<li>Moderate  : 17 ft</li>\n
+                                  <li>Major  : 19 ft</li>\n</ul>\n<h4>
+                                  <u>Secondary (kcfs)</u></h4>\n<ul>
+                                  <li>Action  : Not Set</li>\n
+                                  <li>Minor  : 91.977 kcfs</li>\n
+                                  <li>Moderate  : Not Set</li>\n
+                                  <li>Major  : Not Set</li>\n</ul>\n
+                                  <h2>Gauge Data</h2>\n
+                                  <div>Latest Observation Category: Normal</div>\n
+                                  <div>Latest Observation: 4.78 ft</div>\n
+                                  <div>Latest Observation (Secondary): 0.94 kcfs</div>\n
+                                  <div>Observation Time: Oct 20, 2023 05:15 PM -0400</div>\n\n\n
+                                  <div>U.S. Geological Survey (USGS) Data and Site Info for Beaver Falls: 
+                                       <a href="https://waterdata.usgs.gov/nwis/inventory/?site_no=03107500">
+                                         USGS ID: 03107500</a></div>'
+                                         }, 
+                  'id': 'https://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=beap1&guid=2023-10-20 21:15:00', 
+                  'guidislink': False, 
+                  'published': 'Fri, 20 Oct 2023 22:43:21 +0000', 
+                  'published_parsed': time.struct_time(tm_year=2023, tm_mon=10, tm_mday=20, tm_hour=22, tm_min=43, tm_sec=21, tm_wday=4, tm_yday=293, tm_isdst=0), 
+                  'geo_lat': '40.763333', 
+                  'geo_long': '-80.315278'}
+]
