@@ -103,3 +103,11 @@ Digital ocean
         cd fastapi  #app dir
         cd src/alembic/versions to see versions 
         alembic upgrade head #to deploy tables  this should be from src folder
+
+
+cron setup
+    sudo crontab -u root -l
+    crontab -l
+    crontab -e
+    /home/ajm/noaa-weather-collector/venv/bin/python3 -m app.main > /home/ajm/noaa-weather-collector/LastRun.txt
+    /home/ajm/noaa-weather-collector/venv/bin/python3  /home/ajm/noaa-weather-collector/src/app/main.py

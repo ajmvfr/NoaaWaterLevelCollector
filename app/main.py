@@ -1,7 +1,7 @@
-from . import models
-from .database import engine
-from .config import settings
-from .WaterLevelRssParse import WaterLevelRssParse, CollectWaterData
+from app import models
+from app.database import engine
+from app.config import settings
+from app.WaterLevelRssParse import WaterLevelRssParse, CollectWaterData
 import time
 
 models.Base.metadata.create_all(bind=engine)
