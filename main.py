@@ -4,7 +4,7 @@ from app.config import settings
 from app.WaterLevelRssParse import WaterLevelRssParse, CollectWaterData
 import time
 
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 
 CollectWaterData()
 # WaterLevelRssParse('BEAP1')

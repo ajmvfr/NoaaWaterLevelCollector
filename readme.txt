@@ -110,4 +110,12 @@ cron setup
     crontab -l
     crontab -e
     /home/ajm/noaa-weather-collector/venv/bin/python3 -m app.main > /home/ajm/noaa-weather-collector/LastRun.txt
-    /home/ajm/noaa-weather-collector/venv/bin/python3  /home/ajm/noaa-weather-collector/src/app/main.py
+    /home/ajm/noaa-weather-collector/venv/bin/python3  /home/ajm/noaa-weather-collector/src/main.py
+0 0 * * * /home/ajm/noaa-weather-collector/venv/bin/python3  /home/ajm/noaa-weather-collector/src/main.py > /home/ajm/noaa-weather-collector/LastRun.log
+0 3 * * * /home/ajm/noaa-weather-collector/venv/bin/python3  /home/ajm/noaa-weather-collector/src/main.py > /home/ajm/noaa-weather-collector/LastRun.log
+0 6 * * * /home/ajm/noaa-weather-collector/venv/bin/python3  /home/ajm/noaa-weather-collector/src/main.py > /home/ajm/noaa-weather-collector/LastRun.log
+0 9 * * * /home/ajm/noaa-weather-collector/venv/bin/python3  /home/ajm/noaa-weather-collector/src/main.py > /home/ajm/noaa-weather-collector/LastRun.log
+0 12 * * * /home/ajm/noaa-weather-collector/venv/bin/python3  /home/ajm/noaa-weather-collector/src/main.py > /home/ajm/noaa-weather-collector/LastRun.log
+0 15 * * * /home/ajm/noaa-weather-collector/venv/bin/python3  /home/ajm/noaa-weather-collector/src/main.py > /home/ajm/noaa-weather-collector/LastRun.log
+0 18 * * * /home/ajm/noaa-weather-collector/venv/bin/python3  /home/ajm/noaa-weather-collector/src/main.py > /home/ajm/noaa-weather-collector/LastRun.log
+0 21 * * * /home/ajm/noaa-weather-collector/venv/bin/python3  /home/ajm/noaa-weather-collector/src/main.py > /home/ajm/noaa-weather-collector/LastRun.log
