@@ -44,7 +44,7 @@ install alembic
     to see alembic history
         alembic history 
     to autogenerate based on model
-        alembic revision --autogenerate -m "some name here"   
+        alembic revision --autogenerate -m "some name here"
         alembic revision --autogenerate -m "initial create tables"    
 
 Digital ocean 
